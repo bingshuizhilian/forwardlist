@@ -1,2 +1,2 @@
 # forwardlist
-a c++ forwardlist container implementation
+a forwardlist container implementation using c language
