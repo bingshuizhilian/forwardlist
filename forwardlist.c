@@ -4,7 +4,7 @@
 
  ********************************************************************************
  * File Name     : forwardlist.c
- * Author        : yanbaisong 18077
+ * Author        : bingshuizhilian@yeah.net
  * Date          : 2017-03-21
  * Description   : 前向链表容器的实现，含有丰富的操作支持
  * Version       : 1.0
