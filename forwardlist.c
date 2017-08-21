@@ -165,6 +165,11 @@ static void* OperateFront(list_t* pList)
 {
 	node_t* pScan = pList->pHead;
 	
+	if(pList->empty(pList))
+	{
+		return NULL;
+	}
+	
 	return pScan->item.pData;
 }
 
@@ -183,6 +188,11 @@ static void* OperateFront(list_t* pList)
 static void* OperateBack(list_t* pList)
 {
 	node_t* pScan = pList->pHead;
+	
+	if(pList->empty(pList))
+	{
+		return NULL;
+	}
 
 	while(NULL != pScan->pNext)
 	{
